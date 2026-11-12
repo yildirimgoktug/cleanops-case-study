@@ -54,17 +54,4 @@ application or its full test suite.
 | 99 worktrees removed at a clean-up | 99 | `docs/planning/sprint-checklist.md`, P-20 Part C |
 | Deployment status | production not deployed; runs on an acceptance/test environment | `README.md` of the private repository ("production is not deployed yet") |
 
-## Earlier figures checked and corrected
-
-| Earlier claim | Finding |
-|---|---|
-| ~350 endpoints | Corrected: 329 API routes, 494 route-method operations (static count, method above) |
-| 138 pages | Corrected: 74 page components and 77 client routes. 138 is the number of `.tsx` files under `frontend/src/pages/`, which also includes dialogs, panels and chart components |
-| 6,000+ tests | Confirmed and made exact: 6,177 backend tests executed by CI on the latest `main` run |
-| 13 shards | Confirmed |
-| CI 5.9 hours → ~20 minutes | 5.9 h confirmed (a serial run, quoted from P-16). ~20 minutes corrected to about 15 minutes (14m21s–15m46s over the last eight green runs) |
-| 194 read endpoints probed as 9 roles, 0 tenant leaks, 0 server errors | Confirmed as reported in the September 2026 audit; not re-run |
-| 354 state-machine attempts, 0 illegal transitions | Confirmed as reported in the same audit; not re-run |
-| 87 models | Confirmed (concrete models) |
-| 16 apps | Confirmed |
-| (in the private docs index) 11 hard invariants; (in the RBAC text) 16 customer permission keys | Current code and matrix have 12 invariants and 17 customer keys; this repository uses the current values |
+Rounded figures used in earlier drafts were replaced by the exact static counts described above.

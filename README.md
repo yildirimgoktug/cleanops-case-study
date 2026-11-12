@@ -85,6 +85,7 @@ its own branch or worktree with a disjoint set of files. A second AI
 session audited each pushed branch from the remote before merge, and the
 full backend suite plus CI had to be green. Security rules are written as
 numbered invariants, each tied to the tests that enforce it.
+The templates, worktree scripts and the CI shard-plan checker behind this process are published separately as [agent-ops](https://github.com/yildirimgoktug/agent-ops).
 More: [docs/engineering-process.md](docs/engineering-process.md).
 
 ## Documentation
@@ -100,6 +101,6 @@ More: [docs/engineering-process.md](docs/engineering-process.md).
 
 Göktuğ Yıldırım — final-year BSc Artificial Intelligence student,
 Vrije Universiteit Amsterdam.
-goktugyildirim65@gmail.com · [linkedin.com/in/goktugyildirim1](https://linkedin.com/in/goktugyildirim1 · github.com/yildirimgoktug)
+goktugyildirim65@gmail.com · [linkedin.com/in/goktugyildirim1](https://www.linkedin.com/in/goktugyildirim1) · [github.com/yildirimgoktug](https://github.com/yildirimgoktug)
 
 Documentation only; see [LICENSE](LICENSE).
